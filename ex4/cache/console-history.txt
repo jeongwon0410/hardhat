@@ -1,0 +1,13 @@
+await signer.sendTransaction({to:"0x7Fe8149477aB0ff1B145c41A76C7De0ee28D59d8",value:ethers.utils.parseEther('0.01')})
+const signer = new ethers.Wallet("8719d06a85a32b316cbee909769b31a67704fd6cc83b4ee294fa3e8601579c8e",provider)
+const provider = new ethers.providers.InfuraProvider(network="goerli","fd5b5f938c3f4851a586ac086ecead61")
+await contract.getA()
+await contract.setA(10)
+await contract.getA()
+contract.getA()
+const contract = new ethers.Contract(addr,ABI,signer)
+let addr = "0xC3E102Ec7437BD1196CF7fF2B233D9e80E910577"
+let ABI = [ { "inputs": [ { "internalType": "uint256", "name": "a1", "type": "uint256" }, { "internalType": "uint256", "name": "b1", "type": "uint256" } ], "name": "add", "outputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ], "stateMutability": "view", "type": "function" }, { "inputs": [], "name": "getA", "outputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ], "stateMutability": "view", "type": "function" }, { "inputs": [ { "internalType": "uint256", "name": "_a", "type": "uint256" } ], "name": "setA", "outputs": [], "stateMutability": "nonpayable", "type": "function" } ]
+const signer = new ethers.Wallet(PVK,provider)
+const PVK = "8719d06a85a32b316cbee909769b31a67704fd6cc83b4ee294fa3e8601579c8e"
+const provider = new ethers.providers.InfuraProvider(network="goerli","fd5b5f938c3f4851a586ac086ecead61")

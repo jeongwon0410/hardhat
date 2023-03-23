@@ -1,0 +1,45 @@
+await contract.getA()
+contract.setA(10).then(console.log)
+await contract.getA()
+awiat contract.getA()
+contract.getA()
+const contract = new ethers.Contract(c_addr,abi,signer)
+let c_addr = "0xb569759d546c20128D4261d16B8Ee6967BE6fB12"
+let abi = [ { "inputs": [], "name": "getA", "outputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ], "stateMutability": "view", "type": "function" }, { "inputs": [ { "internalType": "uint256", "name": "_a", "type": "uint256" } ], "name": "setA", "outputs": [], "stateMutability": "nonpayable", "type": "function" } ]
+signer
+const signer = new ethers.Wallet(PVK,provider)
+const PVK = "8719d06a85a32b316cbee909769b31a67704fd6cc83b4ee294fa3e8601579c8e"
+const provider = new ethers.providers.InfuraProvider(network="goerli","fd5b5f938c3f4851a586ac086ecead61")
+contract.setA(25, {gasPrice : 5500000000}).then(console.log)
+contract.getA().then(console.log)
+await contract.getA()
+contract.getA().then(console.log)
+contract.getA()
+contract.getA
+contract.setA(10).then(console.log)
+contract.setA(10).then(console.log))
+contract.getA().then(console.log)
+contract.address
+contract.estimateGas.getA().then(console.log)
+contract.estimateGas.getA().then(console.log())
+contract
+const contract = new ethers.Contract(c_addr,abi,signer)
+"0xb569759d546c20128D4261d16B8Ee6967BE6fB12"
+let c_addr = 
+let abi = [ { "inputs": [], "name": "getA", "outputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ], "stateMutability": "view", "type": "function" }, { "inputs": [ { "internalType": "uint256", "name": "_a", "type": "uint256" } ], "name": "setA", "outputs": [], "stateMutability": "nonpayable", "type": "function" } ]
+const signer = new ethers.Wallet(PVK,provider)
+const PVK = "8719d06a85a32b316cbee909769b31a67704fd6cc83b4ee294fa3e8601579c8e"
+const provider = new ethers.providers.InfuraProvider(network="goerli","fd5b5f938c3f4851a586ac086ecead61")
+ const provider = new ethers.providers.InfuraProvider
+const provider = new ethers.providers.InfuraProvider(network="goerli","fd5b5f938c3f4851a586ac086ecead61")
+ethers.provider
+const provider = new ethers.provider(network="goerli", "fd5b5f938c3f4851a586ac086ecead61")
+console.log(await ethers.getSigner())
+console.log(ethers.getSigner())
+ethers.getSigner()
+ethers.provider
+flattening 
+console.log(await ethers.getSigner())
+ethers.getSigner()
+ethers.provider
+eth		,.	hers.  

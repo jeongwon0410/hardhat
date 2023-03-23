@@ -1,0 +1,373 @@
+contract.nftMINT("0x7Fe8149477aB0ff1B145c41A76C7De0ee28D59d8","QmVDMA3TMGTCXrxmgFjiWBBDfvVRp9o4U7FGFP5WauSBfo").then(console.log)
+contract.nftMINT(0x7Fe8149477aB0ff1B145c41A76C7De0ee28D59d8,"QmVDMA3TMGTCXrxmgFjiWBBDfvVRp9o4U7FGFP5WauSBfo").then(console.log)
+contract
+contract.nftMINT()
+contract.nftMINT("0x7Fe8149477aB0ff1B145c41A76C7De0ee28D59d8","QmVDMA3TMGTCXrxmgFjiWBBDfvVRp9o4U7FGFP5WauSBfo").then(console.log)
+contract.nftMINT("0x7Fe8149477aB0ff1B145c41A76C7De0ee28D59d8","QmVDMA3TMGTCXrxmgFjiWBBDfvVRp9o4U7FGFP5WauSBfo")
+const contract = new ethers.Contract(addr,ABI,signer)
+let addr = "0x51BD2810e60294DC4cF3c5995dC8a1df52561142"
+ABI = [ { "inputs": [], "stateMutability": "nonpayable", "type": "constructor" }, { "anonymous": false, "inputs": [ { "indexed": true, "internalType": "address", "name": "owner", "type": "address" }, { "indexed": true, "internalType": "address", "name": "approved", "type": "address" }, { "indexed": true, "internalType": "uint256", "name": "tokenId", "type": "uint256" } ], "name": "Approval", "type": "event" }, { "anonymous": false, "inputs": [ { "indexed": true, "internalType": "address", "name": "owner", "type": "address" }, { "indexed": true, "internalType": "address", "name": "operator", "type": "address" }, { "indexed": false, "internalType": "bool", "name": "approved", "type": "bool" } ], "name": "ApprovalForAll", "type": "event" }, { "inputs": [ { "internalType": "address", "name": "to", "type": "address" }, { "internalType": "uint256", "name": "tokenId", "type": "uint256" } ], "name": "approve", "outputs": [], "stateMutability": "nonpayable", "type": "function" }, { "inputs": [ { "internalType": "address", "name": "receiver", "type": "address" }, { "internalType": "string", "name": "tokenURI", "type": "string" } ], "name": "nftMINT", "outputs": [], "stateMutability": "nonpayable", "type": "function" }, { "inputs": [ { "internalType": "address", "name": "from", "type": "address" }, { "internalType": "address", "name": "to", "type": "address" }, { "internalType": "uint256", "name": "tokenId", "type": "uint256" } ], "name": "safeTransferFrom", "outputs": [], "stateMutability": "nonpayable", "type": "function" }, { "inputs": [ { "internalType": "address", "name": "from", "type": "address" }, { "internalType": "address", "name": "to", "type": "address" }, { "internalType": "uint256", "name": "tokenId", "type": "uint256" }, { "internalType": "bytes", "name": "data", "type": "bytes" } ], "name": "safeTransferFrom", "outputs": [], "stateMutability": "nonpayable", "type": "function" }, { "inputs": [ { "internalType": "address", "name": "operator", "type": "address" }, { "internalType": "bool", "name": "approved", "type": "bool" } ], "name": "setApprovalForAll", "outputs": [], "stateMutability": "nonpayable", "type": "function" }, { "anonymous": false, "inputs": [ { "indexed": true, "internalType": "address", "name": "from", "type": "address" }, { "indexed": true, "internalType": "address", "name": "to", "type": "address" }, { "indexed": true, "internalType": "uint256", "name": "tokenId", "type": "uint256" } ], "name": "Transfer", "type": "event" }, { "inputs": [ { "internalType": "address", "name": "from", "type": "address" }, { "internalType": "address", "name": "to", "type": "address" }, { "internalType": "uint256", "name": "tokenId", "type": "uint256" } ], "name": "transferFrom", "outputs": [], "stateMutability": "nonpayable", "type": "function" }, { "stateMutability": "payable", "type": "receive" }, { "inputs": [], "name": "_id", "outputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ], "stateMutability": "view", "type": "function" }, { "inputs": [ { "internalType": "address", "name": "owner", "type": "address" } ], "name": "balanceOf", "outputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ], "stateMutability": "view", "type": "function" }, { "inputs": [ { "internalType": "uint256", "name": "tokenId", "type": "uint256" } ], "name": "getApproved", "outputs": [ { "internalType": "address", "name": "", "type": "address" } ], "stateMutability": "view", "type": "function" }, { "inputs": [ { "internalType": "address", "name": "owner", "type": "address" }, { "internalType": "address", "name": "operator", "type": "address" } ], "name": "isApprovedForAll", "outputs": [ { "internalType": "bool", "name": "", "type": "bool" } ], "stateMutability": "view", "type": "function" }, { "inputs": [], "name": "name", "outputs": [ { "internalType": "string", "name": "", "type": "string" } ], "stateMutability": "view", "type": "function" }, { "inputs": [ { "internalType": "uint256", "name": "tokenId", "type": "uint256" } ], "name": "ownerOf", "outputs": [ { "internalType": "address", "name": "", "type": "address" } ], "stateMutability": "view", "type": "function" }, { "inputs": [ { "internalType": "bytes4", "name": "interfaceId", "type": "bytes4" } ], "name": "supportsInterface", "outputs": [ { "internalType": "bool", "name": "", "type": "bool" } ], "stateMutability": "view", "type": "function" }, { "inputs": [], "name": "symbol", "outputs": [ { "internalType": "string", "name": "", "type": "string" } ], "stateMutability": "view", "type": "function" }, { "inputs": [ { "internalType": "uint256", "name": "tokenId", "type": "uint256" } ], "name": "tokenURI", "outputs": [ { "internalType": "string", "name": "", "type": "string" } ], "stateMutability": "view", "type": "function" } ]
+let ABI = "[ { "inputs": [], "stateMutability": "nonpayable", "type": "constructor" }, { "anonymous": false, "inputs": [ { "indexed": true, "internalType": "address", "name": "owner", "type": "address" }, { "indexed": true, "internalType": "address", "name": "approved", "type": "address" }, { "indexed": true, "internalType": "uint256", "name": "tokenId", "type": "uint256" } ], "name": "Approval", "type": "event" }, { "anonymous": false, "inputs": [ { "indexed": true, "internalType": "address", "name": "owner", "type": "address" }, { "indexed": true, "internalType": "address", "name": "operator", "type": "address" }, { "indexed": false, "internalType": "bool", "name": "approved", "type": "bool" } ], "name": "ApprovalForAll", "type": "event" }, { "inputs": [ { "internalType": "address", "name": "to", "type": "address" }, { "internalType": "uint256", "name": "tokenId", "type": "uint256" } ], "name": "approve", "outputs": [], "stateMutability": "nonpayable", "type": "function" }, { "inputs": [ { "internalType": "address", "name": "receiver", "type": "address" }, { "internalType": "string", "name": "tokenURI", "type": "string" } ], "name": "nftMINT", "outputs": [], "stateMutability": "nonpayable", "type": "function" }, { "inputs": [ { "internalType": "address", "name": "from", "type": "address" }, { "internalType": "address", "name": "to", "type": "address" }, { "internalType": "uint256", "name": "tokenId", "type": "uint256" } ], "name": "safeTransferFrom", "outputs": [], "stateMutability": "nonpayable", "type": "function" }, { "inputs": [ { "internalType": "address", "name": "from", "type": "address" }, { "internalType": "address", "name": "to", "type": "address" }, { "internalType": "uint256", "name": "tokenId", "type": "uint256" }, { "internalType": "bytes", "name": "data", "type": "bytes" } ], "name": "safeTransferFrom", "outputs": [], "stateMutability": "nonpayable", "type": "function" }, { "inputs": [ { "internalType": "address", "name": "operator", "type": "address" }, { "internalType": "bool", "name": "approved", "type": "bool" } ], "name": "setApprovalForAll", "outputs": [], "stateMutability": "nonpayable", "type": "function" }, { "anonymous": false, "inputs": [ { "indexed": true, "internalType": "address", "name": "from", "type": "address" }, { "indexed": true, "internalType": "address", "name": "to", "type": "address" }, { "indexed": true, "internalType": "uint256", "name": "tokenId", "type": "uint256" } ], "name": "Transfer", "type": "event" }, { "inputs": [ { "internalType": "address", "name": "from", "type": "address" }, { "internalType": "address", "name": "to", "type": "address" }, { "internalType": "uint256", "name": "tokenId", "type": "uint256" } ], "name": "transferFrom", "outputs": [], "stateMutability": "nonpayable", "type": "function" }, { "stateMutability": "payable", "type": "receive" }, { "inputs": [], "name": "_id", "outputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ], "stateMutability": "view", "type": "function" }, { "inputs": [ { "internalType": "address", "name": "owner", "type": "address" } ], "name": "balanceOf", "outputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ], "stateMutability": "view", "type": "function" }, { "inputs": [ { "internalType": "uint256", "name": "tokenId", "type": "uint256" } ], "name": "getApproved", "outputs": [ { "internalType": "address", "name": "", "type": "address" } ], "stateMutability": "view", "type": "function" }, { "inputs": [ { "internalType": "address", "name": "owner", "type": "address" }, { "internalType": "address", "name": "operator", "type": "address" } ], "name": "isApprovedForAll", "outputs": [ { "internalType": "bool", "name": "", "type": "bool" } ], "stateMutability": "view", "type": "function" }, { "inputs": [], "name": "name", "outputs": [ { "internalType": "string", "name": "", "type": "string" } ], "stateMutability": "view", "type": "function" }, { "inputs": [ { "internalType": "uint256", "name": "tokenId", "type": "uint256" } ], "name": "ownerOf", "outputs": [ { "internalType": "address", "name": "", "type": "address" } ], "stateMutability": "view", "type": "function" }, { "inputs": [ { "internalType": "bytes4", "name": "interfaceId", "type": "bytes4" } ], "name": "supportsInterface", "outputs": [ { "internalType": "bool", "name": "", "type": "bool" } ], "stateMutability": "view", "type": "function" }, { "inputs": [], "name": "symbol", "outputs": [ { "internalType": "string", "name": "", "type": "string" } ], "stateMutability": "view", "type": "function" }, { "inputs": [ { "internalType": "uint256", "name": "tokenId", "type": "uint256" } ], "name": "tokenURI", "outputs": [ { "internalType": "string", "name": "", "type": "string" } ], "stateMutability": "view", "type": "function" } ]"
+const signer = new ethers.Wallet(pvk,provider)
+const pvk = "8719d06a85a32b316cbee909769b31a67704fd6cc83b4ee294fa3e8601579c8e"
+const provider = new ethers.providers.AlchemyProvider(network="goerli","fd5b5f938c3f4851a586ac086ecead61")
+contract2
+const contract2 = new ethers.Contract(addr,abi,signer)
+const abi = []
+contract
+const contract = new ethers.Contract(addr,ABI,signer)
+const addr = "0x08Ac0Bdf5BEC25E53226d7cd8b54FC37Ab4085B9"
+let ABI = [ { "inputs": [ { "internalType": "address", "name": "_addr", "type": "address" } ], "name": "login", "outputs": [], "stateMutability": "nonpayable", "type": "function" }, { "inputs": [ { "internalType": "address", "name": "_addr", "type": "address" }, { "internalType": "string", "name": "_id", "type": "string" }, { "internalType": "string", "name": "pw", "type": "string" } ], "name": "signup", "outputs": [], "stateMutability": "nonpayable", "type": "function" }, { "inputs": [ { "internalType": "address", "name": "_addr", "type": "address" } ], "name": "isSingup", "outputs": [ { "internalType": "bool", "name": "", "type": "bool" } ], "stateMutability": "view", "type": "function" }, { "inputs": [ { "internalType": "address", "name": "_addr", "type": "address" } ], "name": "userInfo", "outputs": [ { "internalType": "string", "name": "id", "type": "string" }, { "internalType": "bool", "name": "", "type": "bool" } ], "stateMutability": "view", "type": "function" } ]
+const signer = new ethers.Wallet("8719d06a85a32b316cbee909769b31a67704fd6cc83b4ee294fa3e8601579c8e",provider)
+const provider = new ethers.providers.InfuraProvider(network="goerli","fd5b5f938c3f4851a586ac086ecead61")
+ABI
+abi
+await contract.blacklist()
+await contract.balacklist()
+contract.owner()
+contract
+const contract = new ethers.Contract(addr,ABI,signer)
+let addr = "0x430EF9263E76DAE63c84292C3409D61c598E9682"
+let ABI = [{"inputs":[{"internalType":"address","name":"_owner","type":"address"},{"internalType":"address","name":"_childChainManagerProxy","type":"address"},{"internalType":"address","name":"_blacklistAddress","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"owner","type":"address"},{"indexed":true,"internalType":"address","name":"spender","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"from","type":"address"},{"indexed":true,"internalType":"address","name":"to","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Transfer","type":"event"},{"constant":true,"inputs":[{"internalType":"address","name":"owner","type":"address"},{"internalType":"address","name":"spender","type":"address"}],"name":"allowance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"approve","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"internalType":"address","name":"account","type":"address"}],"name":"balanceOf","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"blacklist","outputs":[{"internalType":"contract BlackListPoly","name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"childChainManagerProxy","outputs":[{"internalType":"address","name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"subtractedValue","type":"uint256"}],"name":"decreaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"user","type":"address"},{"internalType":"bytes","name":"depositData","type":"bytes"}],"name":"deposit","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"addedValue","type":"uint256"}],"name":"increaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"isOwner","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"name","outputs":[{"internalType":"string","name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"renounceOwnership","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"internalType":"string","name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"recipient","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transfer","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"sender","type":"address"},{"internalType":"address","name":"recipient","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transferFrom","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"newChildChainManagerProxy","type":"address"}],"name":"updateChildChainManager","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"withdraw","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}]
+signer
+const signer = new ethers.Wallet("8719d06a85a32b316cbee909769b31a67704fd6cc83b4ee294fa3e8601579c8e",provider)
+await provider.getGasPrice()
+provider.getBlockNumber().then(console.log)
+let provider = new ethers.providers.AlchemyProvider(network="matic","1dBvxXk9l0jrmvUWQ_udMa0CKrA_UwJB")
+while(true) { await provider.getBlockNumber() }
+while(true) await provider.getBlockNumber()
+while true await provider.getBlockNumber()
+await provider.getBlockNumber() -w
+await provider.getBlockNumber()
+provider
+let provider = new ethers.providers.AlchemyProvider(network="matic","1dBvxXk9l0jrmvUWQ_udMa0CKrA_UwJB")
+provider
+provider = new ethers.providers.AlchemyProvider(network="matic","1dBvxXk9l0jrmvUWQ_udMa0CKrA_UwJB")
+let provider = new ethers.providers.AlchemyProvider(network="matic","1dBvxXk9l0jrmvUWQ_udMa0CKrA_UwJB")
+let provider = new ethers.providers.AlchemyProvider(network="polygon","1dBvxXk9l0jrmvUWQ_udMa0CKrA_UwJB")
+await contract.balanceOf("0x7Fe8149477aB0ff1B145c41A76C7De0ee28D59d8").then(console.log)
+await contract.transfer("0x7Fe8149477aB0ff1B145c41A76C7De0ee28D59d8",10)
+await contract.name()
+await contract.name
+contract.name
+const contract = new ethers.Contract(addr,abi,signer)
+let addr = "0x7132e7330696C352216c3ca96b7372021f9f2593"
+]
+	}
+		"type": "function"
+		"stateMutability": "view",
+		],
+			}
+				"type": "uint256"
+				"name": "",
+				"internalType": "uint256",
+			{
+		"outputs": [
+		"name": "totalSupply",
+		"inputs": [],
+	{
+	},
+		"type": "function"
+		"stateMutability": "view",
+		],
+			}
+				"type": "string"
+				"name": "",
+				"internalType": "string",
+			{
+		"outputs": [
+		"name": "symbol",
+		"inputs": [],
+	{
+	},
+		"type": "function"
+		"stateMutability": "view",
+		],
+			}
+				"type": "string"
+				"name": "",
+				"internalType": "string",
+			{
+		"outputs": [
+		"name": "name",
+		"inputs": [],
+	{
+	},
+		"type": "function"
+		"stateMutability": "view",
+		],
+			}
+				"type": "uint8"
+				"name": "",
+				"internalType": "uint8",
+			{
+		"outputs": [
+		"name": "decimals",
+		"inputs": [],
+	{
+	},
+		"type": "function"
+		"stateMutability": "view",
+		],
+			}
+				"type": "uint256"
+				"name": "",
+				"internalType": "uint256",
+			{
+		"outputs": [
+		"name": "balanceOf",
+		],
+			}
+				"type": "address"
+				"name": "account",
+				"internalType": "address",
+			{
+		"inputs": [
+	{
+	},
+		"type": "function"
+		"stateMutability": "view",
+		],
+			}
+				"type": "uint256"
+				"name": "",
+				"internalType": "uint256",
+			{
+		"outputs": [
+		"name": "allowance",
+		],
+			}
+				"type": "address"
+				"name": "spender",
+				"internalType": "address",
+			{
+			},
+				"type": "address"
+				"name": "owner",
+				"internalType": "address",
+			{
+		"inputs": [
+	{
+	},
+		"type": "receive"
+		"stateMutability": "payable",
+	{
+	},
+		"type": "function"
+		"stateMutability": "nonpayable",
+		],
+			}
+				"type": "bool"
+				"name": "",
+				"internalType": "bool",
+			{
+		"outputs": [
+		"name": "transferFrom",
+		],
+			}
+				"type": "uint256"
+				"name": "amount",
+				"internalType": "uint256",
+			{
+			},
+				"type": "address"
+				"name": "to",
+				"internalType": "address",
+			{
+			},
+				"type": "address"
+				"name": "from",
+				"internalType": "address",
+			{
+		"inputs": [
+	{
+	},
+		"type": "event"
+		"name": "Transfer",
+		],
+			}
+				"type": "uint256"
+				"name": "value",
+				"internalType": "uint256",
+				"indexed": false,
+			{
+			},
+				"type": "address"
+			"name": "to",
+				"internalType": "address",
+				"indexed": true,
+			{
+			},
+				"type": "address"
+				"name": "from",
+				"internalType": "address",
+				"indexed": true,
+			{
+		"inputs": [
+		"anonymous": false,
+	{
+	},
+		"type": "function"
+		"stateMutability": "nonpayable",
+		],
+			}
+				"type": "bool"
+				"name": "",
+				"internalType": "bool",
+			{
+		"outputs": [
+		"name": "transfer",
+		],
+			}
+				"type": "uint256"
+				"name": "amount",
+				"internalType": "uint256",
+			{
+			},
+				"type": "address"
+				"name": "to",
+				"internalType": "address",
+			{
+		"inputs": [
+	{
+	},
+		"type": "function"
+		"stateMutability": "nonpayable",
+		"outputs": [],
+		"name": "MintToken",
+		],
+			}
+				"type": "uint256"
+				"name": "amount",
+				"internalType": "uint256",
+			{
+		"inputs": [
+	{
+	},
+		"type": "function"
+		"stateMutability": "nonpayable",
+		],
+			}
+				"type": "bool"
+				"name": "",
+				"internalType": "bool",
+			{
+		"outputs": [
+		"name": "increaseAllowance",
+		],
+			}
+				"type": "uint256"
+				"name": "addedValue",
+				"internalType": "uint256",
+			{
+			},
+				"type": "address"
+				"name": "spender",
+				"internalType": "address",
+			{
+		"inputs": [
+	{
+	},
+		"type": "function"
+		"stateMutability": "nonpayable",
+		],
+			}
+				"type": "bool"
+				"name": "",
+				"internalType": "bool",
+			{
+		"outputs": [
+		"name": "decreaseAllowance",
+		],
+			}
+				"type": "uint256"
+				"name": "subtractedValue",
+				"internalType": "uint256",
+			{
+			},
+				"type": "address"
+				"name": "spender",
+				"internalType": "address",
+			{
+		"inputs": [
+	{
+	},
+		"type": "function"
+		"stateMutability": "nonpayable",
+		],
+			}
+				"type": "bool"
+				"name": "",
+				"internalType": "bool",
+			{
+		"outputs": [
+		"name": "approve",
+		],
+			}
+				"type": "uint256"
+				"name": "amount",
+				"internalType": "uint256",
+			{
+			},
+				"type": "address"
+				"name": "spender",
+				"internalType": "address",
+			{
+		"inputs": [
+	{
+	},
+		"type": "event"
+		"name": "Approval",
+		],
+			}
+				"type": "uint256"
+				"name": "value",
+				"internalType": "uint256",
+				"indexed": false,
+			{
+			},
+				"type": "address"
+				"name": "spender",
+				"internalType": "address",
+				"indexed": true,
+			{
+			},
+				"type": "address"
+				"name": "owner",
+				"internalType": "address",
+				"indexed": true,
+			{
+		"inputs": [
+		"anonymous": false,
+	{
+	},
+		"type": "constructor"
+		"stateMutability": "nonpayable",
+		],
+			}
+				"type": "uint256"
+				"name": "totalSupply",
+				"internalType": "uint256",
+			{
+		"inputs": [
+	{
+let abi = [
+const signer = new ethers.Wallet(PVK,provider)
+const PVK = "8719d06a85a32b316cbee909769b31a67704fd6cc83b4ee294fa3e8601579c8e"
+const provider = new ethers.providers.InfuraProvider(network="goerli","fd5b5f938c3f4851a586ac086ecead61")
+await signer.sendTransaction({to:"0x7Fe8149477aB0ff1B145c41A76C7De0ee28D59d8",value:ethers.utils.parseEther('0.01')})
+const signer = new ethers.Wallet(PVK,provider)
+const PVK = "8719d06a85a32b316cbee909769b31a67704fd6cc83b4ee294fa3e8601579c8e"
+const provider = new ethers.providers.InfuraProvider(network="goerli","fd5b5f938c3f4851a586ac086ecead61")
+await contract.getLen()
+await contract.setA(3)
+await contract.setA(2)
+await contract.setA(1)
+await contract.getLen()
+await contract.getA()
+const contract = new ethers.Contract(addr,ABI,signer)
+let addr = "0xf46138A10B533108298150AC693D25e24F9e0743"
+let ABI = [ { "inputs": [ { "internalType": "uint256", "name": "n1", "type": "uint256" }, { "internalType": "uint256", "name": "n2", "type": "uint256" } ], "name": "compare", "outputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ], "stateMutability": "pure", "type": "function" }, { "inputs": [], "name": "getLen", "outputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ], "stateMutability": "view", "type": "function" }, { "inputs": [ { "internalType": "uint256", "name": "n", "type": "uint256" } ], "name": "setA", "outputs": [], "stateMutability": "nonpayable", "type": "function" } ]
+const signer = new ethers.Wallet(PVK,provider)
+const PVK = "8719d06a85a32b316cbee909769b31a67704fd6cc83b4ee294fa3e8601579c8e"
+const provider = new ethers.providers.InfuraProvider(network="goerli","fd5b5f938c3f4851a586ac086ecead61")

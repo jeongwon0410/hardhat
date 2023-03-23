@@ -1,0 +1,19 @@
+npm init
+npm install --save-dev hardhat
+npx hardhat
+npm install --save-dev @nomicfoundation/hardhat-toolbox
+npx hardhat compile
+
+
+// console 
+npx hardhat --network goerli console
+// provider 설정
+const provider = new ethers.providers.AlchemyProvider(network="goerli", "뒤에 KEY 부분만 따로 따서")
+// 지갑 설정
+const PVK = "여러분 지갑의 개인키"
+const signer = new ethers.Wallet(PVK, provider)
+// contract 설정
+let ABI = [컨트랙트의 ABI] // artifacts/contracts/../Simple.json에 있음
+let addr = "배포한 컨트랙트 주소"
+
+const contract = new ethers.Contract(addr, ABI, signer)
